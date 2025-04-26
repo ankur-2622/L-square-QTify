@@ -1,0 +1,16 @@
+.button {
+    background-color: black !important;  /* Ensures black background */
+    color: #00ff00 !important;  /* Green text */
+    border-radius: 8px !important;  /* Ensures border-radius */
+    cursor: pointer !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 10px 16px;
+    border: none !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .button:hover {
+    background-color: #222 !important;
+  }
+  

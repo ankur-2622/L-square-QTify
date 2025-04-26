@@ -1,0 +1,39 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 40px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Navbar Button */
+  .navbar-button {
+    background-color: black !important;  /* Ensures black background */
+    color: #00ff00 !important;  /* Green text */
+    border-radius: 8px !important;  /* Rounded corners */
+    cursor: pointer !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 10px 16px;
+    border: none !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .navbar-button:hover {
+    background-color: #222 !important;
+  }
+  
